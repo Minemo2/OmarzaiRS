@@ -1,0 +1,9 @@
+.home_mainImage {
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+}

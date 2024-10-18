@@ -1,0 +1,65 @@
+.pakket-container{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.home-pakons{
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+.home-pakons h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+ .rb {color:green;
+font-style: italic;}
+
+.text-pakons{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+.pakdots{color:green;
+font-size: 40px;}
+
+.exc{font-weight: 700;}
+
+.pak-box {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+    height: 230px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 20px;
+    background-color:whitesmoke;
+    position: relative;
+    margin: 20px auto;;
+    border: 0;
+  }
+  .pak-box h3 {
+    background-color: rgb(59, 219, 59);
+    color: white;
+    top: -25px; /* Move it up */
+    left: 50%; /* Center it horizontally */
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    width:300px;
+    height: 50px;
+    font-size: 30px;
+    transform: translateX(-50%); /* Adjust to center properly */
+    border-radius: 4px; /* Rounded corners for the title */
+  }
+  .pak-price{
+    font-weight: 900;
+    font-size: 30px;
+  }

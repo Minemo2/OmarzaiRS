@@ -1,0 +1,25 @@
+.footer-container{
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(179, 177, 177);
+
+}
+.social-networks{
+    display: flex;
+    margin: 0 auto;
+    max-width: 660px;
+    justify-content: center;
+    /* align-items: cen; */
+    font-size: 20px;
+}
+
+.main-contain{
+    font-size: 12px;
+}
+
+.f-hr{
+    border: 0;
+}

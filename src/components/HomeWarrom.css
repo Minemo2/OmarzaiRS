@@ -1,0 +1,20 @@
+.warrom-container {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.warrom-container img {
+    width: 450px; 
+    padding-top: 30px;
+}
+
+.text-container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.text-container ul li {
+    cursor: text;
+}
